@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django-cms = "*"
+djangocms-text-ckeditor = "*"
+djangocms-bootstrap4 = "*"
+
+aldryn-newsblog = "*"
+djangocms-link = "*"
+djangocms-file = "*"
+djangocms-picture = "*"
+djangocms-style = "*"
+djangocms-snippet = "*"
+cmsplugin-filer = {editable = true,git = "https://github.com/pawelmarkowski/cmsplugin-filer",ref = "2.0.2"}
+
+[requires]
+python_version = "3.7"
